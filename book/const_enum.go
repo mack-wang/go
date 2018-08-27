@@ -6,7 +6,7 @@ func main() {
 
 	const (
 		x uint16 = 120
-		y
+		y        // 会和上一变量相同
 		s = "abc"
 		z
 	)
@@ -31,7 +31,7 @@ func main() {
 		aa = iota
 		bb
 		cc
-		dd float64 = iota
+		dd float64 = iota // 会改变类型，但iota依然会继续
 		ee
 	)
 	println(aa, bb, cc, dd, ee)

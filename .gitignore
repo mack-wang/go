@@ -4,6 +4,7 @@
 .AppleDouble
 .LSOverride
 dist/
+*.exe
 
 # Icon must end with two \r
 Icon
