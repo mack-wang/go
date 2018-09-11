@@ -13,7 +13,7 @@ type data struct {
 	name string
 }
 
-func (data) say()  {
+func (data) say() {
 	fmt.Println("hello")
 }
 
@@ -28,9 +28,10 @@ func (data) pull() string {
 
 func main() {
 	var a tester = data{}
-	var i = []int{1,2,3}
+	var i = []int{1, 2, 3}
 	fmt.Println(i)
+	i[0]++
 	a.say()
-	b:=a.pull()
+	b := a.pull()
 	println(b)
 }
